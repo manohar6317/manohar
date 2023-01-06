@@ -1,0 +1,11 @@
+body{
+    background: radial-gradient(skyblue 50%,gold)
+}
+main {
+    background-color: rgb(233, 201, 20);
+    margin-top: 185px;
+    border-radius: 5%;
+}
+#heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        
+            <h1 id="heading">LifeX</h1>
+        
+        <fieldset id="parent1">
+            <legend>Intro</legend>
+            <p>LifeX is the way to many dreamers, who want to be in space and travel to other planets rather than earth</p><hr>
+            <h2>BOOK YOUR ........🎫. .... TICKETS.....</h2>
+            <div id="div1" class="rocket">
+                <h1>RIDE ON  ......🚀</h1>
+            </div>
+        </fieldset>
+        <form action="/submit.php">
+        <fieldset id="parent2" class="parenttwo">
+            <legend>Enter Your Details</legend>
+            <fieldset id="child1" class="childone">
+                <legend>Personal</legend>
+                <label for="name">Name</label><hr id="line1">
+                <input type="text" id="name" placeholder="enter your name" name="peru" required><hr>
+                <label for="age">Age</label><hr id="line2">
+                <input type="number" name="vayasu" id="age" min="18" placeholder="Enter Age" required><hr>
+                <p>DISCLAIMER</p><hr id="line3">
+                <h2 class="disclaimer">AT present we are ...... not providing services to,who are ..... below 18 years <strong>Sorry for the inconvinience</strong></h2><hr>
+                <label for="gender">Choose Gender:</label><hr id="line8">
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option val="other">Other</option>
+                </select><hr>
+                <label for="number">Mobile NO</label><hr id="line4">
+                <input type="number" id="number" name="no" minlength="10" maxlength="10" placeholder="Number">
+                
+            </fieldset>
+            <fieldset id="child2">
+                <legend>Address</legend>
+
+                  <label for="address" required>Choose Your Country: </label><hr id="line9">
+                  <select id="address">
+                      <option value="india">India</option>
+                      <option value="italy">Europe</option>
+                      <option value="japan">Japan</option>
+                      <option value="greece">Greece</option>
+                  </select><hr>
+                  <label for="email">Email Address</label><hr id="line5">
+                  <input type="email" id="email" name="mail" placeholder="Enter E-Mail">
+              </fieldset>
+        </fieldset>
+        <fieldset>
+            <legend>BooKING</legend>
+            <label for="booking">Choose Date To RIDE ON</label><hr id="line6">
+            <input type="date" id="booking" name="booked" required><hr>
+            <label for="candidates">Total Candidates</label><hr id="line7">
+            <input type="number" id="candidates" required name="candidate" placeholder="Total Candidates"><hr>
+            <label>Choose Service:</label><hr id="line10">
+            <label for="express">Express</label>
+            <input type="checkbox" name="express-snail" class="mano" id="express" value="option"><hr id="line11">
+            <label for="snail">Snail</label>
+            <input type="checkbox" name="express-snail" class="nani" id="snail" value="option2"><hr>
+            <label>Choose Session:</label><hr id="line12">
+            <input type="radio" id="afternoon" name="a-e-n-m" ><label for="afternoon">Afternoon</label><hr id="line13">
+            <input type="radio" id="evening" name="a-e-n-m"><label for="evening">Evening</label><hr id="line14">
+            <input type="radio" id="night" name="a-e-n-m"><label for="night">Night</label><hr id="line15">
+            <input type="radio" id="morning" name="a-e-n-m"><label for="morning">Morning</label><hr>
+        </fieldset>
+        <fieldset>
+            <legend>Why?</legend>
+            <textarea placeholder="Type Here!.."></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Identity Proof</legend>
+            <label for="file">Upload File<hr id="line17">[Valid Resedential Proof]</label><hr id="line16">
+            <input type="file" id="file" name="files">
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <textarea placeholder="Describe Your Experience with LIFEX"></textarea>
+        </fieldset>
+        <input type="submit">
+        </form>
+        <footer>
+            <a href="gold.html"><h1 class="launch" id="go">Launch</h1></a>
+        </footer>
+    </main>
+</body>
+</html>
