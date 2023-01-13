@@ -1,5 +1,7 @@
 body {
-    background: linear-gradient(89deg,skyblue,black,gold);
+    background: linear-gradient(180deg,rgb(8, 98, 116),skyblue,purple);
+    
+  
     
 
 }
@@ -7,12 +9,15 @@ body {
 #heading {
     text-align: center;
     font-size: 150px;
+    height: 280px;
+    padding: 10px;
 }
+
 #line1,#line2,#line3,#line4,#line5,#line6,#line7,#line8,#line9,#line10,#line11,#line12,#line13,#line14,#line15,#line16,#line17{
     background: linear-gradient(50deg,skyblue,red);
     height: 0px;
     width: 0px;
-    margin-top: -1.1%;
+    margin-top: 1.1%;
 }
 .disclaimer {
     margin-top: -1.1%;
@@ -34,4 +39,9 @@ textarea {
 .launch:hover{
     text-transform:uppercase;
   
+}
+.submit {
+    color: red;
+    position: relative;
+    
 }
